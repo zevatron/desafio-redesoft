@@ -14,20 +14,17 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
     *{
-        margin: 0px;
-    }
-    div{
-        /* height: 50vmax; */
+        margin: 0;
+        padding: 0;
     }
     image,img{
         float: left;
-
-        padding: 2em;
+        padding: 1em;
     }
     p{
         padding-top: 1em;
         text-align: right;
-        font-size: 2em;
+        font-size: 20px;
         margin-right: 1em;
         
     }

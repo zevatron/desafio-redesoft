@@ -1,7 +1,10 @@
 <template>
     <div class="user">
-        <p><b>Olá, {{user}}! </b><br>
+        <div class="user-info">
+            <p><b>Olá, {{user}}! </b><br>
         Você está agora em um posto participante da rede+ </p>
+        </div>
+        
         <button>Pague pelo APP</button>
         <p id="info">
             Efetue o pagamento on-line pelo app e acumule seus pontos automaticamente.
@@ -21,19 +24,20 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    
     .user{
-        margin-top: 1em;
-        background-color: white;
+        margin-bottom: 60px;
+    }
+    .user-info{
         background-image: url('../assets/BG home.png');
-        height: 102px;  
-        font-size: 13pt;
+        background-position-y: 80px;
+        min-height: 80px;  
         
     }
     p{
         text-align: left;
         padding-top: 1em;
         margin-left: 1em;
+        font-size: 13px;
     }
     button{
         background-color: gray ;
@@ -44,8 +48,8 @@ export default {
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 13pt;
-        margin-top: 1em ;
+        font-size: 10px;
+        margin-top: 3em ;
         cursor: pointer;
         text-transform: uppercase;
         font-weight: bold;
@@ -55,11 +59,11 @@ export default {
         margin: 0 5%;
         color: gray;
         text-align: center;
-        font-size: 10pt;
+        font-size: 8px;
         font-weight: bold;
     }
     a {
-        font-size: 10pt;
+        font-size: 8px;
         font-weight: bold;
         color:goldenrod;
     }

@@ -39,6 +39,7 @@ export default {
     }
     p{
         margin: 0;
+        font-size: 10px;
     }
     
     ul{
@@ -51,7 +52,7 @@ export default {
     li{
         display: inline-block;
         margin-top:0.5em;
-        padding: 0 1em;
+        padding: 0 0.7em;
     }
     
 </style>

@@ -1,14 +1,19 @@
 <template>
     <div class="info">
-        <p> {{msg}} </p>
+        <NavBar />
+        <p>
+            O pit stop onde você<br>ganha pontos e<br>muito mais!
+        </p>
     </div>
 </template>
 
 <script>
+import NavBar from './NavBar'
+
 export default {
   name: 'Info',
-   props: {
-    msg: String
+  components:{
+      NavBar
   }
 }
 </script>
@@ -16,13 +21,21 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
     .info{
-        margin: 1em;
+        height: 40vmax;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%) , url('../assets/posto.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
     }
     p{
-        font-size: 2em;
         text-align: right;
-        border-top-style: solid;
-        border-bottom-style: solid;
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        margin: 0.5em 0.5em;
+        padding: 1em 1em;
+        font-size: 16px;
+        
+
     }
 
 </style>
