@@ -33,7 +33,7 @@ export default {
         border-bottom: 2px solid;
         margin: 0.5em 0.5em;
         padding: 1em 1em;
-        font-size: 16px;
+        font-size: 1.5em;
         
 
     }

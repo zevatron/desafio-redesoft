@@ -1,8 +1,8 @@
 <template>
     <div class="user">
         <div class="user-info">
-            <p><b>Olá, {{user}}! </b><br>
-        Você está agora em um posto participante da rede+ </p>
+            <p>Olá, {{user}}!<br>
+        <span>Você está agora em um posto participante da rede+</span></p>
         </div>
         
         <button>Pague pelo APP</button>
@@ -29,15 +29,18 @@ export default {
     }
     .user-info{
         background-image: url('../assets/BG home.png');
-        background-position-y: 80px;
-        min-height: 80px;  
+        background-position-y: 100px;
+        min-height: 100px;  
+        font-weight: bold;
         
     }
     p{
         text-align: left;
         padding-top: 1em;
         margin-left: 1em;
-        font-size: 13px;
+    }
+    span {
+          font-size: 0.9em;
     }
     button{
         background-color: gray ;
@@ -48,7 +51,6 @@ export default {
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 10px;
         margin-top: 3em ;
         cursor: pointer;
         text-transform: uppercase;
@@ -59,11 +61,12 @@ export default {
         margin: 0 5%;
         color: gray;
         text-align: center;
-        font-size: 8px;
+        font-size: 0.8em;
         font-weight: bold;
+        padding: 1em;
     }
     a {
-        font-size: 8px;
+        font-size: 0.8em;
         font-weight: bold;
         color:goldenrod;
     }

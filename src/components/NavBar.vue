@@ -22,10 +22,9 @@ export default {
         padding: 1em;
     }
     p{
-        padding-top: 1em;
+        padding: 0.2em 0.2em;
         text-align: right;
-        font-size: 20px;
-        margin-right: 1em;
+        font-size: 2em;
         
     }
 

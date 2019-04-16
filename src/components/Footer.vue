@@ -39,7 +39,6 @@ export default {
     }
     p{
         margin: 0;
-        font-size: 10px;
     }
     
     ul{
